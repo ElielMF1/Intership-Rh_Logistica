@@ -1,0 +1,125 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	text-decoration-style: none;
+	text-decoration-color: none;
+	color: rgb(255, 255, 255);
+	
+}
+
+a{text-decoration: none;
+	text-decoration: none;
+	list-style: none;
+	margin: 3px;
+	color: rgb(255, 255, 255);
+}
+
+body{
+	background-color: rgb(230, 230, 230);
+	color: rgb(255, 255, 255);
+
+}
+
+.encabezado{
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+.puerto{
+	height: 50px;
+	align-self: flex-end;
+	margin: 15px;
+	position: sticky;
+}
+h1{	
+	width: 100%;
+	text-align: center;
+	padding: 15px 0 0 0px;
+	margin: 0 0 15px 0px;
+	background: rgb(120,37,111);;
+	border-bottom: 10px solid rgb(255, 255, 255);
+	color: rgb(255, 255, 255);
+}
+
+
+.Lugares{
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	grid-gap: 30px;
+	margin: 15px;
+}
+
+
+.Lugar{
+	background: rgb(132,0,140);
+	background: linear-gradient(180deg, rgba(132,0,140,1) 0%, rgba(255,7,232,1) 53%, rgba(140,28,130,1) 100%);
+	text-decoration-style: none;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.Lugar:hover{
+	opacity: .90;
+}
+
+.texto{
+	text-decoration: none;
+}
+
+
+.enlaces{
+display: flex;
+width: 80%;
+background-color: rgb(128, 0, 120);
+position: sticky;
+top: 0;
+justify-content: space-around;
+margin: 10px auto;
+padding: 5px 20px;
+align-items: center;
+border-radius:20px;
+}
+
+
+.enlaces_elemento:hover{
+color: rgb(200, 200, 200);
+}
+
+.Subti{
+text-align: center;
+color: rgb(255, 0, 255);
+
+}
+
+.imagen_i{
+height: 200px;
+border-radius: 50px;
+}
+
+.img_tienda{
+	height: 200px;
+	width: 90%;
+}
+
+.lugar_t{
+	font-weight: 800;
+	padding: 10px;
+}
+
+
+
+.lugar_p{
+	padding: 10px;
+}
+
+.proyect{
+background: rgb(247,245,0);
+background: linear-gradient(180deg, rgba(247,245,0,1) 0%, rgba(255,136,0,1) 66%, rgba(245,255,0,1) 100%);
+}
+
+
+.cerrar:hover{
+	color: rgb(255, 0, 0);
+}
