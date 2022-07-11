@@ -1,0 +1,53 @@
+*{
+	padding: 0;
+	margin:0;
+	box-sizing: border-box;
+}
+
+
+h1{
+	text-align: center;
+	padding: 20px;
+}
+
+
+.datos_envio{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	padding: 15px;
+}
+
+.datos{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	padding: 15px;
+
+}
+
+.tabla{
+	display: grid;
+	grid-template-columns: repeat(11, 1fr);
+	padding: 10px;
+	grid-gap: 5px;
+	align-items: center;
+	text-align: center;
+
+}
+
+.caja_boton{
+	display: flex;
+	justify-content: center;
+}
+
+.input{
+	height: 35px;
+	width: 145px;
+	background-color: rgb(5,5, 50);
+	color: rgb(255, 255, 255);
+	border:5px solid rgb(115, 50, 110);
+	cursor: pointer;
+}
+
+.input:hover{
+	background-color: rgb(115,50, 110);
+}
