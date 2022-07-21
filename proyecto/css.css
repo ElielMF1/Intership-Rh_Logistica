@@ -380,5 +380,17 @@ padding: 50PX;
   box-shadow: 0 4px 30px rgba(0,0,0,.05);
 }
 
+.conv{
+	height: 50vw;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+.conv2{
+	height: 30vw;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
 
 
