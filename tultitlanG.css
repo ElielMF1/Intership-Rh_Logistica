@@ -53,7 +53,7 @@ h1{
 h2{
 	width: 100%;
 	padding: 20px 0px 0 30px;
-	color: rgb(255,0,181);
+	color: var(--naranja);
 }
 .Ogeneral{
 margin: 15px;
@@ -68,8 +68,8 @@ text-align: center;
 .contenedor{
 	border: 5px inset rgba(120,37,164,0.88);
 border-radius: 5px 40px 5px 5px;
- background: rgb(255,0,181);
-background: linear-gradient(90deg, rgba(255,0,181,1) 0%, rgba(255,0,254,0.15730042016806722) 100%);
+ background: var(--naranja);
+
 }
 
 .contenedor:hover{
